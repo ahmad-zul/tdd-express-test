@@ -1,0 +1,27 @@
+{
+  "name": "tdd-express-test",
+  "version": "1.0.0",
+  "description": "playing around with tdd",
+  "main": "index.js",
+  "scripts": {
+      "start": "node server.js",
+      "test": "mocha ./tests --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmad-zul/tdd-express-test.git"
+  },
+  "author": "Zul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmad-zul/tdd-express-test/issues"
+  },
+  "homepage": "https://github.com/ahmad-zul/tdd-express-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
